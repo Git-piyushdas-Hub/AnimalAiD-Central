@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs Detail</title>
+    <link rel="stylesheet" href="dogs.css">
+</head>
+<body>
+    <div class="description">
+        <h2>Domestic Dogs</h2>
+    <p>The term “domestic dog” refers to any of several hundred breeds of dog in the world today. While these animals vary drastically in appearance, every dog—from the Chihuahua to the Great Dane—is a member of the same species, Canis familiaris. This separates domestic dogs from wild canines, such as coyotes, foxes, and wolves.
+        Domestic dogs are mostly kept as pets, though many breeds are capable of surviving on their own, whether it’s in a forest or on city streets. A third of all households worldwide have a dog, according to a 2016 consumer insights study. This makes the domestic dog the most popular pet on the planet.</p>
+    <br>    
+    <h3>Popular Breeds of Dogs</h3>
+    <p>Today, many of the dogs you know and love are the product of selective breeding between individuals with desirable traits, either physical or behavioral. For instance, around 9,500 years ago, ancient peoples began breeding dogs that were best able to survive and work in the cold. These dogs would become the family of sled dogs—including breeds such as huskies and malamutes—that remains relatively unchanged today.
+        Similarly, humans bred German shepherds for their ability to herd livestock, Labrador retrievers to help collect ducks and other game felled by hunters, and sausage-shaped Dachshunds for their ability to rush down a burrow after a badger. Many more breeds were created to fill other human needs, such as home protection and vermin control.  
+        Certain breeds have also been created to make dogs more desirable as companions. For instance, the labradoodle, which combines the traits of a Labrador retriever and a poodle, was invented as an attempt to create a hypoallergenic guide dog.</p>
+    </div>
+    
+    
+        <!-- Image Slider start -->
+    <div class="slider" id="segment">
+        <div class="slides" >
+            <!-- Radio buttons start -->
+            <input type="radio" name="radio" id="radio1">
+            <input type="radio" name="radio" id="radio2">
+            <input type="radio" name="radio" id="radio3">
+            <input type="radio" name="radio" id="radio4">
+            <!-- Radio buttons end -->
+
+            <!-- Slides iamges start -->
+            <div class="slide first" >
+                <img src="https://images5.alphacoders.com/368/368022.jpg">
+            </div>
+            <div class="slide">
+                <img src="../images/Untitled.png" alt="cat image">
+            </div>
+            <div class="slide">
+                <img src="https://w.forfun.com/fetch/8b/8b856c9a4b27619d71cf6f584d6bbbaa.jpeg" alt="cat image">
+            </div>
+            <div class="slide">
+                <img src="https://c4.wallpaperflare.com/wallpaper/134/62/494/siberian-husky-dog-animals-blue-eyes-wallpaper-preview.jpg" alt="cat image">
+            </div>
+            <!-- Slides images end -->
+            <!-- Auto image slider -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- Auto image slider end -->
+        </div>
+        <!-- Manual image slider start -->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn" onclick="manualSlide('radio1')"></label>
+            <label for="radio2" class="manual-btn" onclick="manualSlide('radio2')"></label>
+            <label for="radio3" class="manual-btn" onclick="manualSlide('radio3')"></label>
+            <label for="radio4" class="manual-btn" onclick="manualSlide('radio4')"></label>
+        </div>
+        <!-- Manual image slider end -->
+    </div>
+    <!-- Image Slider end -->
+    
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/German_Shepherd">German Shepherd</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Labrador_Retriever">Labrador Retriever</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Golden_Retriever">Golden Retriever</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Siberian_Husky">Siberian Husky</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Beagle">Beagle</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Shiba_Inu">Shiba Inu</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bulldog">Bulldog</a></li>
+    </ul>
+    
+
+    <script src="dogs.js"></script>
+
+</body>
+</html>
